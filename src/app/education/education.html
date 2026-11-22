@@ -1,0 +1,30 @@
+
+<section class="education" id="education">
+
+  <div class="section-title">
+
+    <p>MY BACKGROUND</p>
+
+    <h2>Education</h2>
+
+  </div>
+
+  <div class="education-list">
+
+    @for (item of education; track item.degree) {
+
+      <div class="education-card">
+
+        <h3>{{ item.degree }}</h3>
+
+        <p>{{ item.university }}</p>
+
+        <span>{{ item.year }}</span>
+
+      </div>
+
+    }
+
+  </div>
+
+</section>

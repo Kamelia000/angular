@@ -1,0 +1,40 @@
+
+<section class="about" id="about">
+
+  <div class="section-title">
+
+    <p>GET TO KNOW ME</p>
+
+    <h2>About Me</h2>
+
+  </div>
+
+  <div class="about-content">
+
+    <div class="about-description">
+
+      <h3>Who Am I?</h3>
+
+      <p>{{ aboutMe }}</p>
+
+    </div>
+
+    <div class="skills">
+
+      <h3>My Skills</h3>
+
+      <div class="skills-list">
+
+        @for (skill of skills; track skill) {
+
+          <span>{{ skill }}</span>
+
+        }
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
